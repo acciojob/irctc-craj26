@@ -23,11 +23,12 @@ public class AddTrainEntryDto {
     public AddTrainEntryDto() {
     }
 
-    public void setStationRoute(List<Station> stationRoute) {
-        this.stationRoute = stationRoute;
-    }
     public List<Station> getStationRoute() {
         return stationRoute;
+    }
+
+    public void setStationRoute(List<Station> stationRoute) {
+        this.stationRoute = stationRoute;
     }
 
     public LocalTime getDepartureTime() {
